@@ -1,0 +1,46 @@
+/*
+Singleton Pattern
+The Singleton pattern is thus known because it restricts instantiation of a class to a single object.
+
+Object creation 
+There are 3 methods to create object.
+
+*/
+1)	var obj = {}
+2)	
+var Person = function (){
+
+}
+
+
+var man = new Person();
+
+
+
+/*
+Assigning properies to object.
+There are 5 methods to assign properties to object
+*/
+
+1) 
+var man = {
+	noOfHands : 2
+};
+
+2) man.noOfLegs = 2;
+
+3) man['noOfHeads'] = 1;
+
+/*
+	Object.defineProperty(obj, prop, descriptor)
+*/
+
+4) Object.defineProperty(man,'noOfNose',{
+	value : 2
+});
+
+5) /*
+	Object.defineProperties(obj, prop, descriptor)
+*/
+
+
