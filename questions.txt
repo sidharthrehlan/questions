@@ -52,5 +52,6 @@ And they should invoke it on your array like this (context for apply can be what
 var data = [1,2,3];
 sum.apply(null, data); // 6
 
+Links : http://doppnet.com/2011/10/10-advanced-javascript-interview-questions/
 
-
+Links : http://javascript.crockford.com/
