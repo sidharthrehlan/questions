@@ -90,6 +90,57 @@ Google Chrome, the V8 engine
 Internet Explorer, the Trident layout engine
 
 
+Object Creation
+================
+var johnDoe = {
+	firstName : 'John',
+	lastName : 'Doe',
+	sayName : function(){
+			return 'my name is'+this.firstName+' '+this.lastName;
+	}
+}
+
+var janeDoe = Object.create(johnDoe,{
+	firstName : {value:'Jane'},
+	greet :
+	{
+		value : function(person){
+			return 'Hello, '+person.firstName;
+		}
+	}
+});
+
+var jimSmith = Object.create(janeDoe,{
+	firstName : {value:'Jim'},
+	lastName : {value:'Smith'}
+});
+
+
+
+Question : Difference between __proto__ and prototype
+
+Answer : __proto__ is parent of object.
+
+like var foo = {};
+
+foo.__proto__ is Object
+And in last example jimSmith.__proto__ is janeDoe
+
+Note : We do not change properties of __proto__
+
+
+ii) prototype is property of function.
+We can add new properties to function through prototype. example 
+var Foo = function(){
+	this.firstname = 'sidharth';
+}
+
+var foo = new Foo();
+foo.prototype.lastname = 'rehlan'; //new property is added to variable through prototype.
+
+we can access lastname and firstname as foo.fistname and foo.lastName. But we can't access firstname as  foo.prototype.first because firstname is not prototype of lastname.
+
+
 
  
 
