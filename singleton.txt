@@ -39,11 +39,21 @@ var man = {
 	value : 2
 });
 
+URL : https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Object/defineProperty
+
+The Object.defineProperty() method defines a new property directly on an object, or modifies an existing property on an object, and returns the object.
+
+Property descriptors present in objects come in two main flavors: data descriptors and accessor descriptors. A data descriptor is a property that has a value, which may or may not be writable. An accessor descriptor is a property described by a getter-setter pair of functions. A descriptor must be one of these two flavors; it cannot be both.
+
+Both data and accessor descriptors are objects. They share the following optional keys:
+
+
+
+
+
 5) /*
 	Object.defineProperties(obj, prop, descriptor)
 */
-
-
 
 Arguments :
 fucntion arguments :
@@ -57,6 +67,29 @@ As it is not an array, sorting or filtering functions does not apply on argument
 
 jeremy mcpeak
 
- 
+/*ECMA Script 5 
 
+History of javascript 
+*/
+
+Javascript was developed by Brendan Eich of Netscape under name Mocha later LiveScript and finally named Javascript.
+
+Microsoft develop Jscript and delivered JScript to Ecma internation for standardization and work on spedification ECMA-262.
+
+EcmaScript is the name of scripting language standardized in ECMA-262. 
+
+5 Editions of ECMA Script published.
+
+ECMA script 4 of ECMA-262 is also called with codename EcmaScript Harmony 
+
+
+Mozilla Firefox has Gecko layout Engine and implement ECMA-262 5  and upcoming features of 6
+
+Google Chrome, the V8 engine
+
+Internet Explorer, the Trident layout engine
+
+
+
+ 
 
