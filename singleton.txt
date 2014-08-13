@@ -56,6 +56,19 @@ Both data and accessor descriptors are objects. They share the following optiona
 */
 
 
+
+Arguments :
+fucntion arguments :
+1)  arguments are not required as in traditional programming
+2) arguments are untype
+3) unspecific arguments are undefined.
+4) arguments are available through arguments object
+it is array like but not really an array.
+
+As it is not an array, sorting or filtering functions does not apply on arguments
+
+jeremy mcpeak
+
 /*ECMA Script 5 
 
 History of javascript 
@@ -78,5 +91,8 @@ Google Chrome, the V8 engine
 
 Internet Explorer, the Trident layout engine
 
+
+
+ 
 
 
