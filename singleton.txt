@@ -140,6 +140,10 @@ foo.prototype.lastname = 'rehlan'; //new property is added to variable through p
 
 we can access lastname and firstname as foo.fistname and foo.lastName. But we can't access firstname as  foo.prototype.first because firstname is not prototype of lastname.
 
+in javascript inheritance __proto__ is a secret link between child and parent object.
+Note : we should not use __proto__ because it is not portable. *** __proto__ is papa ***
+
+
 
 
  
